@@ -1,0 +1,257 @@
+@media screen and (max-width:1024px){
+    header{
+   overflow:hidden;
+    }
+    .search input{
+        width: 200px;
+        height: -10px;
+    }
+    .icon{
+        height: -10px;
+    }
+   .list ul{
+    font-size: 1.3rem;
+    gap:15px;
+   }
+   .hero {
+     display: flex;
+     height: 250px;
+     width: 100%;
+     background: url('hero.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   .bio {
+     height: 200px;
+     width: 200px;
+   }
+   .bio p{
+     font-size: 1.6rem;
+     margin-left: 50px;
+     margin-top: 70px;
+    }
+    .category{
+     height: 650px;
+     width:100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     overflow: initial;
+   }
+   .box{
+     height: 300px;
+     width:23%;
+     margin: 5px;
+     /* background-color: aliceblue; */
+     margin-bottom:0px;
+   }
+   .ct-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    overflow: initial;
+  }
+   .ct-photo img{
+     height: 150px;
+     width: 150px;
+   }
+   .box button{
+    overflow: initial;
+  }
+}
+
+/* Mobile Size*/
+@media screen and (max-width:480px) and (orientation:portrait){
+    *{
+  overflow:scroll;
+   }
+   .list{
+  display: none;   
+  }
+   .list2{
+    position: absolute;   
+    background-color: aliceblue;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  .list2 li a{
+    color: black;
+    text-decoration: none;
+    overflow: unset;
+    font-size: 1.1rem;
+  }
+  .list2 ul li a:hover{
+    color: rgb(13, 76, 172);
+    text-decoration: underline;
+  }
+  .list2 li,ul{
+    overflow: unset;
+    list-style: none;
+    padding: 5px;
+  }
+    .search input{
+        width: 100px;
+        height: -10px;
+    }
+    .icon{
+        height: -10px;
+    }
+    .icon2{
+        display: flex;
+        height: -10px;
+    }
+  .hero{
+    display:flex;
+  height:900px;
+  width:100%;background:aqua;
+  }
+  .hero {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    background: url('hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: initial;
+  }
+  .bio {
+    height: 150px;
+    width: 150px;
+  }
+  .bio p{
+    font-size: 0.6rem;
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+
+  .category{
+    height: 800px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: initial;
+    background-size: cover;
+    padding: 10px;
+  }
+  .category box1{
+    padding-top: 0px;
+  }
+  .box{
+    height: 250px;
+    width:44%;
+    margin: 10px;
+    /* background-color: aliceblue; */
+    margin-bottom: 0%;
+    overflow: initial;
+  }
+  .ct-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+    /* padding-bottom: 5px; */
+    overflow: initial;
+  }
+  h2{
+    overflow: unset;
+  }
+  .cat{
+	  font-size:1rem;
+	  padding:3px;
+	}
+  .ct-photo img{
+	  	  margin-top:10px;
+
+    height: 150px;
+    width: 150px;
+  }
+  .box button{
+    margin-bottom: 20px;
+    overflow: initial;
+  }
+  }
+  @media screen and (max-width:800px) and (orientation:landscape){
+    *{
+  overflow:scroll;
+   }
+   .search input{
+       width: 90px;
+       height: -10px;
+   }
+   .icon{
+       height: -10px;
+   }
+  .list ul{
+   font-size: 1.1rem;
+   gap:15px;
+  }
+  .hero {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background: url('hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bio {
+    height: 200px;
+    width: 200px;
+  }
+  .bio p{
+    font-size: 1rem;
+    margin-left: 50px;
+    margin-top: 60px;
+  }
+  
+  .category{
+    height: 800px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: initial;
+    background-size: cover;
+  }
+  .box{
+    height:45%;
+    width:47%;
+    margin: 10px;
+    /* background-color: aliceblue; */
+    margin-bottom: 0%;
+    overflow: initial;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  .ct-photo{
+    padding: 20px;
+    overflow: initial;
+    padding-bottom: 10px;
+  }
+  .ct-photo img{
+    height: 250px;
+    width: 250px;
+  }
+.box button{
+    background-color: rgb(28, 76, 231);
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    color: aliceblue;
+    font-weight: 600;
+	overflow:initial;
+  }
+  .box button:hover{
+    filter: invert();
+  }
+  }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Edits</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.icon2').click(function(){
+                $('.list2').animate({height: 'toggle'});
+        });
+    });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+                <img src="logo.jpg">
+                <h2>Dev Edits</h2>
+            </div>
+            <div class="search flex">
+                <input type="text">
+                <button class="icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Achievements</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <button class="icon2 icon"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <div class="list2">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Achievements</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+	<div class="hero">
+	    <div class="bio">
+		
+	    </div>
+	</div>
+    <h2 style="padding: 6px;color: white; width: 100%;background-color: black;text-align: center;font-size: 2rem;">Categories</h2>
+    <div class="category">
+        <div class="box1 box">
+            <div class="ct-photo">
+                <img src="wedding.jpg">
+            </div>
+            <h2 style="text-align: center;">Wedding</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box3 box">
+            <div class="ct-photo">
+                <img src="event.jpg">
+            </div>
+            <h2 style="text-align: center;">Events</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box3 box">
+            <div class="ct-photo">
+                <img src="com.jfif">
+            </div>
+            <h2 style="text-align: center;">Commercial</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box4 box">
+            <div class="ct-photo">
+                <img src="out.webp">
+            </div>
+            <h2 style="text-align: center;">Outdoor</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box5 box">
+            <div class="ct-photo">
+                <img src="ind.webp">
+            </div>
+            <h2 style="text-align: center;">Indoor</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box6 box">
+            <div class="ct-photo">
+                <img src="model.jpg">
+            </div>
+            <h2 style="text-align: center;">Model</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box7 box">
+            <div class="ct-photo">
+                <img src="edit.webp">
+            </div>
+            <h2 style="text-align: center;">Editing</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+        <div class="box8 box">
+            <div class="ct-photo">
+                <img src="cat.jpg">
+            </div>
+            <h2 style="text-align: center;">Family</h2>
+            <button type="submit" style="align-items: center;">Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
